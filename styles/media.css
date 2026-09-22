@@ -588,17 +588,6 @@
         line-height: 45px;
         margin: 0 5px;
     }
-    
-
-
-    .Chefe .gallery .containar {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-
-    .gallery-wrapper .containar {
-        grid-template-columns: 1fr;
-    }
 
 
     .sec-Footer .Footer-top .containar-Footer {
