@@ -19,24 +19,28 @@
     .pizza .card {
         flex-direction: column;
         text-align: center;
-        padding: 50px 20px;  
+        padding: 50px 20px;
     }
-    .pizza .card .data{
+
+    .pizza .card .data {
         align-items: center;
         padding: 0;
         margin-top: 20px;
     }
-    .Latest-Foods > img{
-          display: none;
+
+    .Latest-Foods>img {
+        display: none;
     }
-   
+
     .pizza .card div:last-of-type {
         width: 100%;
         max-width: 500px;
     }
-    .pizza .card div:last-of-type img{
-         position:sticky;
+
+    .pizza .card div:last-of-type img {
+        position: sticky;
     }
+
     header {
         padding: 200px 5%;
     }
@@ -61,22 +65,26 @@
 }
 
 @media(max-width:1200px) {
-  .Testimonial .sec-heading{
-    top: 250px;
-    right: 300px;
-  }
-  .Testimonial .btn-wrap{
-     top: 770px;
-    right: 350px
-  }
-  .Testimonial .Testimonial-card{
-    top: 350px;
-    right: 150px;
-  }
-  .Testimonial>img:nth-of-type(2){
-    top: 50px;
-    right: 300px;
-  }
+    .Testimonial .sec-heading {
+        top: 250px;
+        right: 300px;
+    }
+
+    .Testimonial .btn-wrap {
+        top: 770px;
+        right: 350px
+    }
+
+    .Testimonial .Testimonial-card {
+        top: 350px;
+        right: 150px;
+    }
+
+    .Testimonial>img:nth-of-type(2) {
+        top: 50px;
+        right: 300px;
+    }
+
     .best-selling>img {
         display: none;
     }
@@ -114,9 +122,10 @@
     .populer .containar-1 {
         grid-template-columns: repeat(3, 1fr);
     }
-    .Latest-Foods .containar{
-         grid-template-columns: repeat(2, 1fr);
-           padding: 0 150px;
+
+    .Latest-Foods .containar {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 150px;
     }
 
     nav {
@@ -304,43 +313,51 @@
     .populer .containar-2 {
         grid-template-columns: repeat(2, 1fr);
     }
-    .Chefe > img{
+
+    .Chefe>img {
         display: none;
     }
-  
-    .Chefe .containar{
-        
+
+    .Chefe .containar {
+
         grid-template-columns: repeat(2, 1fr);
     }
-     .sec-Footer {
-        width: 100%;
-     }
-     .sec-Footer > img {
-        display: none;
-     }
-     .sec-Footer .Footer-top .containar-colam{
-          grid-template-columns: repeat(4, 1fr);
-     }
-   
 
-    
+    .sec-Footer {
+        width: 100%;
+    }
+
+    .sec-Footer>img {
+        display: none;
+    }
+
+    .sec-Footer .Footer-top .containar-colam {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+
 }
 
 @media(max-width:992px) {
-    .sec-Footer .Footer-top .containar-colam{
-          grid-template-columns: repeat(3, 1fr);
-     }
+    .sec-Footer .Footer-top .containar-colam {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .sec-Footer .Footer-top .containar-Footer {
         grid-template-columns: repeat(1, 1fr);
     }
-     .Latest-Foods .containar{
-         grid-template-columns: repeat(1, 1fr);
+
+    .Latest-Foods .containar {
+        grid-template-columns: repeat(1, 1fr);
         padding: 0 250px;
-        
+
     }
-    .Chefe .containar{
+
+    .Chefe .containar {
         grid-template-columns: repeat(1, 1fr);
     }
+
     .menu>img {
         display: none;
     }
@@ -380,18 +397,19 @@
     }
 
 
-   
-       
-   
 
-  
+
+
+
+
 
 }
 
 @media(max-width:768px) {
-    .sec-Footer .Footer-top .containar-colam{
-          grid-template-columns: repeat(2, 1fr);
-     }
+    .sec-Footer .Footer-top .containar-colam {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .best-selling .containar {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -407,7 +425,8 @@
     .populer .containar-1 {
         grid-template-columns: repeat(2, 1fr);
     }
-     .populer .containar-2 {
+
+    .populer .containar-2 {
         grid-template-columns: repeat(1, 1fr);
         padding-right: 20px;
 
@@ -415,6 +434,7 @@
 }
 
 @media(max-width:480px) {
+
     /* .sec-Footer .Footer-top .containar-colam{
           grid-template-columns: repeat(1, 1fr);
           width: 100%;
@@ -445,11 +465,11 @@
     .best-selling .containar {
         grid-template-columns: repeat(1, 1fr);
     } */
-     section {
+    section {
         padding: 50px 10px;
     }
 
-   
+
     header {
         padding: 80px 10px;
     }
@@ -463,12 +483,12 @@
         line-height: 38px;
     }
 
-    
+
     section .sec-heading h2 {
         font-size: 26px;
     }
 
-   
+
     .populer .containar-1 {
         gap: 80px 10px;
     }
@@ -481,18 +501,18 @@
         font-size: 18px;
     }
 
-  
+
     .best-selling .containar {
         grid-template-columns: 1fr;
     }
 
-    
+
     .pizza .card .data h3 {
         font-size: 28px;
         line-height: 36px;
     }
 
-    
+
     .menu {
         padding: 50px 10px;
     }
@@ -511,13 +531,13 @@
         flex-direction: column;
     }
 
-    
+
     .tags .containar p {
         font-size: 35px;
         line-height: 35px;
     }
 
-   
+
     .Discount {
         margin: 50px 0 20px;
         padding: 30px 10px 0;
@@ -532,27 +552,48 @@
         padding: 30px 10px;
     }
 
-    
-    .Testimonial .Testimonial-card {
-        padding: 20px;
+    .Testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 15px;
+        position: relative;
     }
 
-    .Testimonial .Testimonial-card > p {
+
+    .Testimonial .Testimonial-card {
+        position: static;
+        width: 100px;
+        max-width: 100%;
+        margin: 0 0 20px 0;
+        box-sizing: border-box;
+        
+    }
+
+    .Testimonial .btn-wrap {
+        position: static;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .Testimonial .Testimonial-card>p {
         font-size: 16px;
         line-height: 26px;
     }
 
-   
+
     .Chefe .gallery .containar {
         grid-template-columns: repeat(2, 1fr);
     }
 
-   
+
     .gallery-wrapper .containar {
         grid-template-columns: 1fr;
     }
 
-    
+
     .sec-Footer .Footer-top .containar-Footer {
         padding: 20px 15px;
     }
