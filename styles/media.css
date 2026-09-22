@@ -435,7 +435,7 @@
 
 @media(max-width:480px) {
 
-    /* .sec-Footer .Footer-top .containar-colam{
+    .sec-Footer .Footer-top .containar-colam{
           grid-template-columns: repeat(1, 1fr);
           width: 100%;
      }
@@ -455,16 +455,13 @@
     .populer .containar-1 {
         grid-template-columns: repeat(1, 1fr);
     }
-}
-
-@media(max-width:350px) {
-    header .data h1 {
+       header .data h1 {
         font-size: 40px;
     }
 
     .best-selling .containar {
         grid-template-columns: repeat(1, 1fr);
-    } */
+    }
     section {
         padding: 50px 10px;
     }
@@ -567,7 +564,9 @@
     .Testimonial {
         padding: 40px 10px;
     }
-
+.Testimonial .sec-heading {
+    display: none;
+}
     .Testimonial .Testimonial-card {
         display: none;
 
@@ -584,6 +583,7 @@
 
     .Testimonial .btn-wrap i {
         width: 45px;
+        display: none;
         height: 45px;
         line-height: 45px;
         margin: 0 5px;
@@ -619,4 +619,171 @@
     .sec-Footer .Footer-top .containar-colam .colam-3 .control .form-control button {
         width: 100%;
     }
+}
+
+@media(max-width:350px) {
+    header .data h1 {
+        font-size: 40px;
+    }
+
+    .best-selling .containar {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* section {
+        padding: 50px 10px;
+    }
+
+
+    header {
+        padding: 80px 10px;
+    }
+
+    header .data b {
+        font-size: 16px;
+    }
+
+    header .data h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+
+    section .sec-heading h2 {
+        font-size: 26px;
+    }
+
+
+    .populer .containar-1 {
+        gap: 80px 10px;
+    }
+
+    .populer .containar-2 .card {
+        padding: 30px 15px;
+    }
+
+    .populer .containar-2 .card .data h3 {
+        font-size: 18px;
+    }
+
+
+    .best-selling .containar {
+        grid-template-columns: 1fr;
+    }
+
+
+    .pizza .card .data h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+
+    .menu {
+        padding: 50px 10px;
+    }
+
+    .menu .menu-containar {
+        padding: 40px 10px;
+    }
+
+    .menu .menu-containar .containar .card {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .menu .menu-containar .containar .card .data {
+        flex-direction: column;
+    }
+
+
+    .tags .containar p {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+
+    .Discount {
+        margin: 50px 0 20px;
+        padding: 30px 10px 0;
+    }
+
+    .Discount .card-img {
+        width: 100%;
+    }
+
+    .Discount .datails {
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .Testimonial {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 15px;
+        position: relative;
+    }
+
+
+    .Testimonial >img{
+        display: none;
+    }
+    .Testimonial {
+        padding: 40px 10px;
+    }
+.Testimonial .sec-heading {
+    display: none;
+}
+    .Testimonial .Testimonial-card {
+        display: none;
+
+    }
+
+    .Testimonial .Testimonial-card .top-card .left .data h3 {
+        font-size: 20px;
+    }
+
+    .Testimonial .Testimonial-card > p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .Testimonial .btn-wrap i {
+        width: 45px;
+        display: none;
+        height: 45px;
+        line-height: 45px;
+        margin: 0 5px;
+    }
+    
+
+
+    .Chefe .gallery .containar {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .gallery-wrapper .containar {
+        grid-template-columns: 1fr;
+    }
+
+
+    .sec-Footer .Footer-top .containar-Footer {
+        padding: 20px 15px;
+    }
+
+    .sec-Footer .Footer-top .containar-colam .colam-3 .control .form-control {
+        flex-direction: column;
+        background: transparent;
+    }
+
+    .sec-Footer .Footer-top .containar-colam .colam-3 .control .form-control input {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .sec-Footer .Footer-top .containar-colam .colam-3 .control .form-control button {
+        width: 100%;
+    } */
 }
