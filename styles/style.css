@@ -725,7 +725,7 @@ section .sec-heading h2 {
     width: 1050px;
     margin: auto;
     column-gap: 20px;
-    row-gap: 170px;
+    row-gap: 190px;
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);

@@ -588,7 +588,34 @@
         line-height: 45px;
         margin: 0 5px;
     }
+     .Latest-Foods .containar {
+        display: flex ;
+        flex-direction: column ;
+        align-items: center ;
+        justify-content: center ;
+        width: 100% ;
+        max-width: 100% ;
+        margin: 0 auto ;
+        padding: 0 15px ;
+        box-sizing: border-box ;
+    }
 
+   
+    .Latest-Foods .containar .card {
+        width: 100% ;
+        max-width: 340px ; 
+        margin: 0 auto 30px auto ;
+        position: static ; 
+        left: auto ;
+        right: auto ;
+    }
+
+   
+    .Latest-Foods .containar .card .card-img,
+    .Latest-Foods .containar .card .card-img img {
+        width: 100% ;
+        max-width: 100% ;
+    }
 
     .sec-Footer .Footer-top .containar-Footer {
         padding: 20px 15px;
