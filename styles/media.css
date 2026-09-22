@@ -601,6 +601,9 @@
     }
 
    
+    .Latest-Foods .containar  {
+        margin-top: 100px;
+    }
     .Latest-Foods .containar .card {
         width: 100% ;
         max-width: 340px ; 
