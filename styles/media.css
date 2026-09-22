@@ -407,6 +407,11 @@
     .populer .containar-1 {
         grid-template-columns: repeat(2, 1fr);
     }
+     .populer .containar-2 {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 20px;
+
+    }
 }
 
 @media(max-width:564px) {
