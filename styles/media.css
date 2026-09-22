@@ -561,12 +561,16 @@
     }
 
 
+    .Testimonial >img{
+        display: none;
+    }
     .Testimonial {
         padding: 40px 10px;
     }
 
     .Testimonial .Testimonial-card {
-        padding: 20px 15px;
+        display: none;
+
     }
 
     .Testimonial .Testimonial-card .top-card .left .data h3 {
