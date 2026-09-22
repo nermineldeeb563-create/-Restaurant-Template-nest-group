@@ -1618,7 +1618,7 @@ section .sec-heading h2 {
 
 .Testimonial .Testimonial-card {
     background: var(--white-color);
-    width: 700px;
+    width: 50%;
     height: auto;
     position: absolute;
     top: 280px;

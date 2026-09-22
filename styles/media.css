@@ -561,27 +561,30 @@
     }
 
 
-    .Testimonial .Testimonial-card {
-        position: static;
-        width: 100px;
-        max-width: 100%;
-        margin: 0 0 20px 0;
-        box-sizing: border-box;
-        
+    .Testimonial {
+        padding: 40px 10px;
     }
 
-    .Testimonial .btn-wrap {
-        position: static;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 10px;
-        width: 100%;
+    .Testimonial .Testimonial-card {
+        padding: 20px 15px;
     }
-    .Testimonial .Testimonial-card>p {
-        font-size: 16px;
+
+    .Testimonial .Testimonial-card .top-card .left .data h3 {
+        font-size: 20px;
+    }
+
+    .Testimonial .Testimonial-card > p {
+        font-size: 15px;
         line-height: 26px;
     }
+
+    .Testimonial .btn-wrap i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        margin: 0 5px;
+    }
+    
 
 
     .Chefe .gallery .containar {
